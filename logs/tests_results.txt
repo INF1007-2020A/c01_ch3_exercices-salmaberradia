@@ -71,6 +71,6 @@ First differing element 0:
 -  6.981317007977318] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.001s
+Ran 5 tests in 0.002s
 
 FAILED (failures=4)
