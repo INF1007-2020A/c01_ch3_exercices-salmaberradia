@@ -5,7 +5,7 @@
 import math
 
 
-def average(a: float, b: float, c: float) -> float:
+def average(a: 4.2, b: 6., c: float) -> float:
     return 0.0
 
 
