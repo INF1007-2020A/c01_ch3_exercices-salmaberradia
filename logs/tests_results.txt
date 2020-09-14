@@ -13,7 +13,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 37, in <listcomp>
     output = [exercice.to_radians(*v) for v in values]
   File "/home/runner/work/c01_ch3_exercices-salmaberradia/c01_ch3_exercices-salmaberradia/exercice.py", line 13, in to_radians
-    return angle_degs + (angle_mins/60) + angle_sec
+    return math.radians(angle_degs + (angle_mins/60) + (angle_sec/3600))
 NameError: name 'angle_sec' is not defined
 
 ======================================================================
@@ -65,6 +65,6 @@ First differing element 0:
 + [32.0, -13.0, 843.8000000000001] : Mauvais calcul de celsius -> farenheit
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 5 tests in 0.001s
 
 FAILED (failures=3, errors=1)
